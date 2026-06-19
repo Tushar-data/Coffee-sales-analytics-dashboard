@@ -7,6 +7,10 @@ This project analyzes coffee shop sales data using Power BI to identify revenue 
 
 - Excel
 
+- Python
+
+- SQL
+
 - DAX
 
 - Power Query
