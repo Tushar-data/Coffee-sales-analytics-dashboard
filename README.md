@@ -1,50 +1,68 @@
-# Coffee-sales-analytics-dashboard
-This project analyzes coffee shop sales data using Power BI to identify revenue trends, product performance, and customer purchasing patterns.
+# Coffee sales Analytics Dashboard 
 
-## Tools Used
+Project Overview
 
-- Power BI
+This project focuses on analyzing coffee sales data to understand sales performance, customer behavior, product performance, city-wise sales, and payment mode preferences.
 
-- Excel
+Python was used for data cleaning and preprocessing, SQL was used for data analysis and business queries, and Power BI was used to build an interactive dashboard with KPIs, filters, charts, and business insights.
 
-- Python
+Dataset Overview
 
-- SQL
+The dataset contains coffee sales transaction records with information related to orders, customers, products, cities, payment modes, sales, quantity, and unit prices.
 
-- DAX
+Key Data Fields
 
-- Power Query
+* Order Date
+* Product
+* Customer Name
+* City
+* Payment Mode
+* Total Sales
+* Quantity
+* Unit Price
 
-## Key KPIs
+Tools & Technologies
 
-- Total Revenue
+* Python – Data cleaning, preprocessing and exploratory data analysis
+* SQL – Data analysis, aggregations and business queries
+* Power BI – Interactive dashboard and data visualization
+* DAX – KPI calculations and analytical measures
 
-- Total Orders
+Dashboard Features
 
-- Average Order Value
+The Power BI dashboard provides an interactive view of coffee sales performance.
 
-- Product Category Performance
+Key KPIs
 
-- Monthly Sales Trend
+* Total Sales
+* Total Orders
+* Total Customers
+* Total Quantity
+* Average Unit Price
 
-## Insights
+Dashboard Analysis
 
-- Identified top-selling coffee products.
+* Sales by Product
+* Sales by City
+* Sales by Customer
+* Monthly Sales Trends
+* Sales by Product and Month
+* Customer Distribution by Payment Mode
+* Interactive filters for City, Product, Payment Mode and Order Date
 
-- Analyzed monthly revenue growth.
+Dashboard Preview
+Key Insights
 
-- Compared category-wise sales performance.
+* Analyzed overall coffee sales and order performance.
+* Identified top-performing products based on total sales.
+* Compared sales performance across different cities.
+* Analyzed customer-level sales contribution.
+* Examined payment mode preferences among customers.
+* Studied monthly sales trends and product-wise performance over time.
 
-- Tracked customer purchasing behavior.
+Project Files
 
-## Files
-
-- coffee dashboard.pbix
-
-- coffee-sales-data.xlsx
-
-- dashboard-screenshot.png
-
-## Author
-
-Tushar Jain
+* coffee-dashboard.pbix – Power BI dashboard
+* coffee sales.sql – SQL queries used for analysis
+* dashboard.png – Power BI dashboard preview
+* Python – Data cleaning and exploratory analysis
